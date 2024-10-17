@@ -1,2 +1,2 @@
 # AviEar-Firmware
- Acoustic Monitoring Firmware for Avian Species
+Firmware for Avian Species Acoustic Monitoring 
