@@ -33,7 +33,7 @@ Pin Configurations
 
 Firmware Prerequisites
 **********************
-#. nRF Connect Sdk ncs 2.4.2 version 
+#. nRF Connect for Desktop, nRF Connect SDK ncs 2.4.2 version 
 #. Visual Studio Code Development Environment
 
 Firmware Building Blocks
