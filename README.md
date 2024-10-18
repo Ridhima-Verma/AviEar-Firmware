@@ -53,7 +53,7 @@ The project includes source code for Local Storage of recorded audio and Device-
 ************************************************************
 #. src folder/main.c : Carries the code for microphone trigger, record, detection algorithm, Sd card write operation
 
-#. Dts and dtsi files: Contains default pin configuration
+#. dts and dtsi files: Contains default pin configuration
 
 #. Overlay: Customized pin configuration
 
@@ -140,7 +140,7 @@ Record the audio, implement detection algorithm, save in sd card, publish to AWS
 
 #. src folder/main_gsm.c : Carries the actual code for GSM Network Connection 
 
-#. Dts and dtsi files: Contains default pin configuration
+#. dts and dtsi files: Contains default pin configuration
 
 #. Overlay: Customized pin configuration
 
