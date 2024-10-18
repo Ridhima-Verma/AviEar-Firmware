@@ -4,9 +4,7 @@ Overview
 ********
 The project includes source code for Local Storage of recorded audio and Device-to-Cloud transfer via MQTT.
 
-/**********************************************************************/
-          (Part A) AviEar: Local Storage
-########################################################################
+/********************* (Part A) AviEar: Local Storage*****************/
 
 #. Configure a PDM MEMS Microphone using DMIC driver 
 #. Record Audio data at sampling rate of either 8kHz and 16 kHz
@@ -62,9 +60,7 @@ Building and Running
 #. Flash the project on the development board
 #. Listen to the audio calls recorded in the Sd card using Audacity Software
 
-/******************************************************************/
-     (Part B.1) AviEar: Device to Cloud Publish Immediately 
-####################################################################
+/***********(Part B.1) AviEar: Device to Cloud Publish Immediately **************/
 
 Approach 1
 *************
@@ -133,10 +129,8 @@ Building and Running
 After flashing, the LED starts to blink. If a runtime error occurs, the sample
 exits without printing to the console.
 
-/**********************************************************************/
-  (Part B.2)AviEar: Device to Cloud Publish After Pre-defined Interval 
-########################################################################
-
+/************** (Part B.2)AviEar: Device to Cloud Publish After Pre-defined Interval ***************/
+ 
 Approach 2
 *************
 Record the audio, implement detection algorithm, save in Sd card. This cycle repeats for each incoming audio.
