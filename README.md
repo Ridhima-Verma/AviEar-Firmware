@@ -18,14 +18,14 @@ The project includes source code for Local Storage of recorded audio and Device-
 
 #. Save the Audio Calls Locally on the Sd Card
 
-------------------Hardware Requirements------------------
-*********************************************************
+-------------------------Hardware Requirements--------------------------
+************************************************************************
 #. nRF5340 SoC by Nordic Semiconductor
 
 #. MP34DT05 MEMS PDM Microphone, SD Card
 
-------------------Pin Configurations--------------------
-********************************************************
+-----------------------------Pin Configurations-------------------------
+************************************************************************
 #. MEMS Microphone:
 
 ● DMIC.CLK = P1.7
@@ -43,14 +43,14 @@ The project includes source code for Local Storage of recorded audio and Device-
 ● GND
 ● VDD 5V
 
-------------------Firmware Prerequisites------------------
-**********************************************************
+--------------------------Firmware Prerequisites----------------------
+**********************************************************************
 #. nRF Connect Sdk ncs 2.4.2 version 
 
 #. Visual Studio Code Development Environment
 
-------------------Firmware Building Blocks------------------
-************************************************************
+----------------------Firmware Building Blocks----------------------
+********************************************************************
 #. src folder/main.c : Carries the code for microphone trigger, record, detection algorithm, Sd card write operation
 
 #. dts and dtsi files: Contains default pin configuration
@@ -59,8 +59,8 @@ The project includes source code for Local Storage of recorded audio and Device-
 
 #. Prj.conf: Enables the driver for the microphone
 
-------------------Building and Running---------------------
-***********************************************************
+----------------------Building and Running-------------------------
+*******************************************************************
 #. Navigate to (C:\ncs\v2.4.0\zephyr\boards\arm\nrf5340dk_nrf5340)
 
 #. Replace the given (nrf5340_cpuapp_common.dts, nrf5340_cpuapp_common-pinctrl.dtsi) files with existing files
@@ -79,8 +79,8 @@ The project includes source code for Local Storage of recorded audio and Device-
 
 /***********(Part B.1) AviEar: Device to Cloud Publish Immediately **************/
 
-------------------Approach 1------------------
-**********************************************
+-----------------------------------Approach 1--------------------------
+***********************************************************************
 Record the audio, implement detection algorithm, save in sd card, publish to AWS. The cycle repeats for each incoming audio.
 
 #. Configure a PDM MEMS Microphone using DMIC driver and record Audio data at sampling of 8kHz and 16 kHz
@@ -95,13 +95,13 @@ Record the audio, implement detection algorithm, save in sd card, publish to AWS
 
 #. Publish recorded audio data to AWS Cloud for remote monitoring
 
-------------------Hardware Requirements------------------
-*********************************************************
+------------------------------Hardware Requirements----------------------
+*************************************************************************
 #. nRF5340 SoC by Nordic Semiconductor
 #. MP34DT05 MEMS Microphone, SD Card, EC200U Quectel modem, Sim Card
 
-------------------Pin Configurations-------------------- 
-********************************************************
+------------------------------Pin Configurations------------------------ 
+************************************************************************
 #. MEMS Microphone:
 
 ● DMIC.CLK = P1.7
@@ -119,8 +119,8 @@ Record the audio, implement detection algorithm, save in sd card, publish to AWS
 ● GND
 ● VDD 5V
 
---------------------Firmware Prerequisites--------------------
-**************************************************************
+----------------------------Firmware Prerequisites------------------------
+**************************************************************************
 #. nRF Connect Sdk ncs 2.4.2 version toolchain
 
 #. Visual Studio Code
@@ -130,8 +130,8 @@ Record the audio, implement detection algorithm, save in sd card, publish to AWS
 #. Generate the Certificates for the Thing and put in creds folder and run the convert_keys.py to generate keys
 
 
---------------------Firmware Building Blocks--------------------
-****************************************************************
+----------------------------Firmware Building Blocks------------------------
+****************************************************************************
 #. src folder/main.c : Carries all the functions of the actual code for operation
 
 #. src folder/main_audio.c : Carries the code for microphone trigger, record, detection algorithm, Sd card write operation
@@ -146,8 +146,8 @@ Record the audio, implement detection algorithm, save in sd card, publish to AWS
 
 #. Prj.conf: Enables the driver for the microphone
 
---------------------Building and Running--------------------
-************************************************************
+--------------------------------Building and Running----------------------------
+********************************************************************************
 
 #. Navigate to (C:\ncs\v2.4.0\zephyr\boards\arm\nrf5340dk_nrf5340)
 
@@ -168,8 +168,8 @@ exits without printing to the console.
 
 /************** (Part B.2) AviEar: Device to Cloud Publish After Pre-defined Interval ***************/
  
-Approach 2
-*************
+-----------------------------------Approach 2--------------------------
+***********************************************************************
 Record the audio, implement detection algorithm, save in Sd card. This cycle repeats for each incoming audio.
 After a user defined interval the device will Publish the recorded data all together. This is done to save power
 due to frequent connection setups.
