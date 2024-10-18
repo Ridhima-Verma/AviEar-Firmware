@@ -39,7 +39,7 @@ Pin Configurations
 
 Firmware Prerequisites
 **********************
-#. nRF Connect Sdk ncs 2.4.2 version toolchain
+#. nRF Connect for Desktop, nRF Connect SDK ncs 2.4.2 version 
 #. Visual Studio Code
 #. Amazon Web Service Cloud MQTT Publish Topic, Endpoint IoT Core, Thing Name, Modem APN
 #. Generate the Certificates for the Thing and put in creds folder and run the convert_keys.py to generate keys
