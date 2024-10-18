@@ -129,7 +129,7 @@ Building and Running
 After flashing, the LED starts to blink. If a runtime error occurs, the sample
 exits without printing to the console.
 
-/************** (Part B.2)AviEar: Device to Cloud Publish After Pre-defined Interval ***************/
+/************** (Part B.2) AviEar: Device to Cloud Publish After Pre-defined Interval ***************/
  
 Approach 2
 *************
