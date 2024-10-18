@@ -45,7 +45,7 @@ The project includes source code for Local Storage of recorded audio and Device-
 
 --------------------------Firmware Prerequisites----------------------
 **********************************************************************
-#. nRF Connect Sdk ncs 2.4.2 version 
+#. nRF Connect for Desktop, nRF Connect SDK ncs 2.4.2 version 
 
 #. Visual Studio Code Development Environment
 
@@ -121,7 +121,7 @@ Record the audio, implement detection algorithm, save in sd card, publish to AWS
 
 ----------------------------Firmware Prerequisites------------------------
 **************************************************************************
-#. nRF Connect Sdk ncs 2.4.2 version toolchain
+#. nRF Connect for Desktop, nRF Connect SDK ncs 2.4.2 version 
 
 #. Visual Studio Code
 
