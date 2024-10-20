@@ -36,10 +36,10 @@ The developed AviEar system focuses on monitoring avian activity through acousti
 
 #. SD Card:
 
-● SD.CS - 0.24
-● SD.SCK - 0.05
-● SD.MISO - 0.27
-● SD.MOSI - 0.04
+● SD.CS - P0.24
+● SD.SCK - P0.05
+● SD.MISO - P0.27
+● SD.MOSI - P0.04
 ● GND
 ● VDD 5V
 
@@ -112,10 +112,10 @@ Record the audio, implement detection algorithm, save in sd card, publish to AWS
 
 #. SD Card:
 
-● SD.CS - 0.24
-● SD.SCK - 0.05
-● SD.MISO - 0.27
-● SD.MOSI - 0.04
+● SD.CS - P0.24
+● SD.SCK - P0.05
+● SD.MISO - P0.27
+● SD.MOSI - P0.04
 ● GND
 ● VDD 5V
 
