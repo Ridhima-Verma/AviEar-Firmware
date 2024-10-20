@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2024 Ridhima Verma Suman Kumar <ridhima.20eez0011@iitrpr.ac.in>
+ * Copyright (c) 2024 Ridhima Verma Suman Kumar <ridhima.20eez0011@iitrpr.ac.in> <suman@iitrpr.ac.in>
  *
  * SPDX-License-Identifier: Apache-2.0
  * 
