@@ -2,9 +2,9 @@
 
 Overview
 ********
-The developed system focuses on monitoring avian activity through acoustic data collection and transmission. The firmware includes source code for local storage of recorded audio and device-to-cloud transfer via MQTT. Bird calls are recorded, and the magnitude of the target frequency is estimated using a detection algorithm. The recorded calls are stored on an SD card and can be accessed remotely via the AWS IoT Cloud platform.
+The developed AviEar system focuses on monitoring avian activity through acoustic data collection and transmission. The firmware includes source code for local storage of recorded audio and device-to-cloud transfer via MQTT. Bird calls are recorded, and the magnitude of the target frequency is estimated using a detection algorithm. The recorded calls are stored on an SD card and can be accessed remotely via the AWS IoT Cloud platform.
 
-/********************* (Part A) AviEar: Local Storage*****************/
+/********************* (Part A) Local Storage*****************/
 
 #. Configure a PDM MEMS Microphone using DMIC driver 
 
@@ -77,7 +77,7 @@ The developed system focuses on monitoring avian activity through acoustic data 
 
 #. Listen to the audio calls recorded in the Sd card using Audacity Software
 
-/***********(Part B.1) AviEar: Device to Cloud Publish Immediately **************/
+/***********(Part B.1) Device to Cloud Publish Immediately **************/
 
 -----------------------------------Approach 1--------------------------
 ***********************************************************************
@@ -166,7 +166,7 @@ Record the audio, implement detection algorithm, save in sd card, publish to AWS
 After flashing, the LED starts to blink. If a runtime error occurs, the sample
 exits without printing to the console.
 
-/************** (Part B.2) AviEar: Device to Cloud Publish After Pre-defined Interval ***************/
+/************** (Part B.2) Device to Cloud Publish After Pre-defined Interval ***************/
  
 -----------------------------------Approach 2--------------------------
 ***********************************************************************
