@@ -2,7 +2,7 @@
 
 Overview
 ********
-The project focuses on monitoring avian activity through acoustic data collection and transmission. The firmware includes source code for local storage of recorded audio and device-to-cloud transfer via MQTT. Bird calls are recorded, and the magnitude of the target frequency is estimated using a detection algorithm. The recorded calls are stored on an SD card and can be accessed remotely via the AWS IoT Cloud platform.
+The developed system focuses on monitoring avian activity through acoustic data collection and transmission. The firmware includes source code for local storage of recorded audio and device-to-cloud transfer via MQTT. Bird calls are recorded, and the magnitude of the target frequency is estimated using a detection algorithm. The recorded calls are stored on an SD card and can be accessed remotely via the AWS IoT Cloud platform.
 
 /********************* (Part A) AviEar: Local Storage*****************/
 
