@@ -39,7 +39,7 @@ Firmware Prerequisites
 Firmware Building Blocks
 ************************
 #. src folder/main.c : Carries the code for microphone trigger, record, detection algorithm, Sd card write operation
-#. Dts and dtsi files: Contains default pin configuration
+#. Dts and dtsi files: Contains SPI configuration
 #. Overlay: Customized pin configuration
 #. Prj.conf: Enables the driver for the microphone
 
