@@ -123,7 +123,7 @@ Record the audio, implement detection algorithm, save in sd card, publish to AWS
 **************************************************************************
 #. nRF Connect for Desktop, nRF Connect SDK ncs 2.4.2 version 
 
-#. Visual Studio Code
+#. Visual Studio Code Development Environment
 
 #. Amazon Web Service Cloud MQTT Publish Topic, Endpoint IoT Core, Thing Name, Modem APN
 
