@@ -151,7 +151,7 @@ Record the audio, implement detection algorithm, save in sd card, publish to AWS
 
 #. Navigate to (C:\ncs\v2.4.2\zephyr\boards\arm\nrf5340dk_nrf5340)
 
-#. Replace the nrf5340 cpuapp common.dts and nrf5340 cpuapp common-pinctrl.dtsi files with the existing ones.
+#. Replace the nrf5340 cpuapp common.dts and nrf5340 cpuapp common-pinctrl.dtsi files with the existing ones
 
 #. Create (myApps) folder at path (C:\ncs\myApps) for your own project
 
