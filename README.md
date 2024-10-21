@@ -61,7 +61,7 @@ The developed AviEar system focuses on monitoring avian activity through acousti
 
 ----------------------Building and Running-------------------------
 *******************************************************************
-#. Navigate to (C:\ncs\v2.4.0\zephyr\boards\arm\nrf5340dk_nrf5340)
+#. Navigate to (C:\ncs\v2.4.2\zephyr\boards\arm\nrf5340dk_nrf5340)
 
 #. Replace the given (nrf5340_cpuapp_common.dts, nrf5340_cpuapp_common-pinctrl.dtsi) files with existing files
 
@@ -149,7 +149,7 @@ Record the audio, implement detection algorithm, save in sd card, publish to AWS
 --------------------------------Building and Running----------------------------
 ********************************************************************************
 
-#. Navigate to (C:\ncs\v2.4.0\zephyr\boards\arm\nrf5340dk_nrf5340)
+#. Navigate to (C:\ncs\v2.4.2\zephyr\boards\arm\nrf5340dk_nrf5340)
 
 #. Replace the given (nrf5340_cpuapp_common.dts,nrf5340_cpuapp_common-pinctrl.dtsi, main_audio.c) files with existing files
 
