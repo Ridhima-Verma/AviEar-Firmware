@@ -53,7 +53,7 @@ The developed AviEar system focuses on monitoring avian activity through acousti
 ********************************************************************
 #. src folder/main.c : Carries the code for microphone trigger, record, detection algorithm, Sd card write operation
 
-#. dts and dtsi files: Contains default pin configuration
+#. dts and dtsi files: Contains SPI configuration
 
 #. Overlay: Customized pin configuration
 
@@ -140,7 +140,7 @@ Record the audio, implement detection algorithm, save in sd card, publish to AWS
 
 #. src folder/main_gsm.c : Carries the actual code for GSM Network Connection 
 
-#. dts and dtsi files: Contains default pin configuration
+#. dts and dtsi files: Contains SPI configuration
 
 #. Overlay: Customized pin configuration
 
