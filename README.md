@@ -151,13 +151,15 @@ Record the audio, implement detection algorithm, save in sd card, publish to AWS
 
 #. Navigate to (C:\ncs\v2.4.2\zephyr\boards\arm\nrf5340dk_nrf5340)
 
-#. Replace the given (nrf5340_cpuapp_common.dts,nrf5340_cpuapp_common-pinctrl.dtsi, main_audio.c) files with existing files
+#. Replace the nrf5340 cpuapp common.dts and nrf5340 cpuapp common-pinctrl.dtsi files with the existing ones.
 
 #. Create (myApps) folder at path (C:\ncs\myApps) for your own project
 
 #. Paste the provided folder (\Audio_cloud_final) at path (C:\ncs\myApps)
 
 #. Open VScode and open project \Audio_cloud_final
+
+#. Replace main audio.c in the src folder with the existing one
 
 #. Build nrf5340dk_nrf5340_cpuapp application 
 
