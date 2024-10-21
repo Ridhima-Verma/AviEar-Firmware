@@ -51,7 +51,7 @@ Firmware Building Blocks
 #. src folder/main_audio.c : Carries the code for microphone trigger, record, detection algorithm, Sd card write operation
 #. src folder/main_aws.c : Carries the actual code for setting AWS credentials, configure MQTT client Connect and Publish operation
 #. src folder/main_gsm.c : Carries the actual code for GSM Network Connection operation
-#. Dts and dtsi files: Contains default pin configuration
+#. Dts and dtsi files: Contains SPI configuration
 #. Overlay: Customized pin configuration
 #. Prj.conf: Enables the driver for the microphone
 
