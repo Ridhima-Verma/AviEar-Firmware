@@ -58,10 +58,10 @@ Firmware Building Blocks
 Building and Running
 ********************
 
-#. Navigate to (C:\ncs\v2.4.2\zephyr\boards\arm\nrf5340dk_nrf5340)
+#. Navigate to (C:/ncs/v2.4.2/zephyr/boards/arm/nrf5340dk_nrf5340)
 #. Replace the nrf5340 cpuapp common.dts and nrf5340 cpuapp common-pinctrl.dtsi files with the existing ones
-#. Create (myApps) folder at path (C:\ncs\myApps) for your own project
-#. Paste the provided folder (\Audio_cloud_final) at path (C:\ncs\myApps)
+#. Create (myApps) folder at path (C:/ncs/myApps) for your own project
+#. Paste the provided folder (\Audio_cloud_final) at path (C:/ncs/myApps)
 #. Open VScode and open project \Audio_cloud_final
 #. Replace main audio.c in the src folder with the existing one
 #. Build nrf5340dk_nrf5340_cpuapp application 
