@@ -19,8 +19,8 @@ Hardware Requirements
 #. MP34DT05 MEMS Microphone, SD Card, EC200U Quectel modem, Sim Card
 
 Pin Configurations 
-*********************
-#. MEMS Microphone:
+********************* 
+MEMS Microphone:
 
 ● DMIC.CLK = P1.7
 ● DMIC.DAT = P1.9
@@ -28,7 +28,7 @@ Pin Configurations
 ● VDD 3V
 ● LR GND
 
-#. SD Card:
+SD Card:
 
 ● SD.CS - 0.24
 ● SD.SCK - 0.05
