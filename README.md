@@ -159,7 +159,7 @@ Record the audio, implement detection algorithm, save in sd card, publish to AWS
 
 #. Open VScode and open project \Audio_cloud_final
 
-#. Replace main audio.c in the src folder with the existing one
+#. Replace main_audio.c in the src folder with the existing one
 
 #. Build nrf5340dk_nrf5340_cpuapp application 
 
