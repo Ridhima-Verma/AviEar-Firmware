@@ -63,7 +63,7 @@ Building and Running
 #. Create (myApps) folder at path (C:/ncs/myApps) for your own project
 #. Paste the provided folder (\Audio_cloud_final) at path (C:/ncs/myApps)
 #. Open VScode and open project \Audio_cloud_final
-#. Replace main audio.c in the src folder with the existing one
+#. Replace main_audio.c in the src folder with the existing one
 #. Build nrf5340dk_nrf5340_cpuapp application 
 #. View and listen the data recorded on the respective Topic at MQTT Test Client and S3 bucket corresponding to the Device Id
 
