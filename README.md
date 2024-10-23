@@ -174,4 +174,4 @@ exits without printing to the console.
 ***********************************************************************
 Record the audio, implement detection algorithm, save in Sd card. This cycle repeats for each incoming audio.
 After a user defined interval the device will Publish the recorded data all together. This is done to save power
-due to frequent connection setups.
+due to frequent connection setups. The building and running steps remain the same as in Part B.1.
